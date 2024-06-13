@@ -7,11 +7,11 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 ### Antônia Tamires Silva de Carvalho
 Idade: 34 anos
-Cargo/ Função: Gerente do laboratório 
+Cargo/ Função: Gerente do laboratório
 
 Escolaridade: Superior
 
-Descrição da sua ocupação: A gerente é responsável pela supervisão geral das operações do laboratório de montagem de óculos. Toma decisões estratégicas relacionadas à produção, recursos humanos, finanças e estratégias de negócios.
+Descrição da sua ocupação: É responsável pela supervisão geral das operações do laboratório de montagem de óculos. Toma decisões estratégicas relacionadas à produção, recursos humanos, finanças e estratégias de negócios.
 Monitora o desempenho operacional e financeiro do laboratório. Define metas e objetivos de produção, qualidade e eficiência. Utiliza o aplicativo para acessar dados e relatórios de desempenho, aprovar os pedidos feitos pela óticas, realizar análises e tomar decisões estratégicas para otimizar os processos de produção.
 
 ### Marcela Lima
