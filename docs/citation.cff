@@ -1,0 +1,26 @@
+message: Software para gestão dos pedidos e estoque de um laboratorio de montagem de oculos
+title: GestLab Gestão de Labotarios
+authors:
+  - family-names: Rafael Santos Silva
+    given-names: Diego 
+  - family-names: Rocha Negreiros
+    given-names: Erika 
+  - family-names: Mendonça Coelho
+    given-names: Naiana 
+  - family-names: Antunes Faria Lima
+    given-names: João Victor
+  - family-names: dos Santos Rosa
+    given-names: João Gabriel
+  - family-names: Santiago Oliveira dos Santos
+    given-names: Diana 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Wilson da Costa
+    given-names: José 
+keywords:
+  - Otica
+  - Oculos
+  - Gestão
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t3-grupo01
+version: 1.0.0
+date-released: 2024-06-19
