@@ -34,9 +34,9 @@
         public static IEnumerable<string> ObterTiposUsuario()
         {
             return new List<string>() {
-                "Administrador",
-                "Cliente",
-                "Montador"
+                Constantes.PerfilAdm,
+                Constantes.PerfilCliente,
+                Constantes.PerfilMontador
             };
         }
     }

@@ -1,4 +1,6 @@
-﻿namespace GestLab.Models
+﻿using GestLab.Shared;
+
+namespace GestLab.Models
 {
     public class PedidoModel
     {
@@ -36,5 +38,13 @@
         public ProdutoModel? LenteEsquerda { get; set; }
         public ProdutoModel? LenteDireita { get; set; }
         public ProdutoModel? Armacao { get; set; }
+
+        public bool PedidoSemPendencia()
+        {
+            return
+                Status == Constantes.StatusEmMontagem
+                || Status == Constantes.StatusAguardandoPagamento
+                || Status == Constantes.StatusFinalizado;
+        }
     }
 }

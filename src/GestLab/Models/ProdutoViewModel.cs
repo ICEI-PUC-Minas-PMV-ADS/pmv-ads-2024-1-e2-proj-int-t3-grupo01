@@ -12,5 +12,6 @@ namespace GestLab.Models
         public string Tipo { get; set; }
         [Range(1, 40)]
         public int Quantidade { get; set; }
+        public decimal Custo { get; set; }
     }
 }

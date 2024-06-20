@@ -1,6 +1,17 @@
-1. Mensagem de falha no login
-2. Salvar na sessão usuario autenticado ao logar
-3. Exibir menus conforme o tipo de usuario.
-4. Criar cliente ao criar usuario do respectivo tipo
-5. Seleção de cliente no cadastro de pedido
-6.1 Caso o usuario seja um cliente, exibir apenas o proprio
+Arquivo de publish: site1.PublishSettings
+Senha para publicação: Senha@2022
+
+Adicionar no hosts: (C:\Windows\System32\drivers\etc)
+208.98.35.140 gestlabpuc.net
+url: http://gestlabpuc.net/ (Parece que tem que alterar o servidor de DNS para funcionar)
+
+OU
+
+url: http://joaoantunes-001-site1.jtempurl.com/
+User Name: 11180321
+Password: 60-dayfreetrial
+
+Usuario do sistema: admin@admin.com
+Senha do sistema: admin
+
+Connection String: "Data Source=SQL8010.site4now.net;Initial Catalog=db_aa9921_gestlab;User Id=db_aa9921_gestlab_admin;Password=Senha@2022"

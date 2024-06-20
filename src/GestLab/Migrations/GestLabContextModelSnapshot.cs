@@ -150,6 +150,9 @@ namespace GestLab.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<decimal?>("Custo")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<DateTime>("DataEntrada")
                         .HasColumnType("datetime2");
 
@@ -205,6 +208,9 @@ namespace GestLab.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("ClienteId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
@@ -224,6 +230,8 @@ namespace GestLab.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ClienteId");
 
                     b.ToTable("Usuarios");
                 });
@@ -269,6 +277,15 @@ namespace GestLab.Migrations
                     b.Navigation("MontadorResponsavel");
 
                     b.Navigation("Receita");
+                });
+
+            modelBuilder.Entity("GestLab.Models.UsuarioModel", b =>
+                {
+                    b.HasOne("GestLab.Models.ClienteModel", "Cliente")
+                        .WithMany()
+                        .HasForeignKey("ClienteId");
+
+                    b.Navigation("Cliente");
                 });
 #pragma warning restore 612, 618
         }

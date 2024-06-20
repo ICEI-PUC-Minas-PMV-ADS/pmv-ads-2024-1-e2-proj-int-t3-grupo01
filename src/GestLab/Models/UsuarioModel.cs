@@ -15,5 +15,6 @@ namespace GestLab.Models
         public string? Email { get; set; }
         [Required(ErrorMessage = "O tipo de usuario deve ser informado")]
         public string Tipo { get; set; }
+        public ClienteModel? Cliente { get; set; }
     }
 }

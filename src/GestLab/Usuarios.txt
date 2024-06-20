@@ -1,0 +1,5 @@
+Senha	Nome			email				Tipo
+admin	Administrador	admin@admin.com		Administrador
+123		Montador		mont@mont.com.br	Montador
+123		Cliente 1		cliente1@cli.com.br	Cliente
+123		Cliente 2		cliente2@cli.com.br	Cliente

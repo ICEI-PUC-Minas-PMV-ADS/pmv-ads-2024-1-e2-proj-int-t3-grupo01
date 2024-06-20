@@ -1,9 +1,17 @@
-﻿@{
+﻿@model UsuarioModel;
+@{
     ViewData["Title"] = "Home Page";
 }
 
+@using GestLab.Shared
+@using Microsoft.AspNetCore.Http
+
 <div class="text-center">
     <h1 class="display-4">Bem vindo</h1>
-    <p>GestLab</p>
+    <h2>@(Constantes.UsuarioModel.Nome) - @(Constantes.UsuarioModel.Tipo)</h2>
+    @if (Constantes.UsuarioModel.Tipo == Constantes.PerfilCliente)
+    {
+        <p>@(Constantes.UsuarioModel.Cliente?.Nome) - @(Constantes.UsuarioModel.Cliente?.Cnpj)</p>
+    }
 </div>
 

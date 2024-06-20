@@ -13,11 +13,17 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 # Instruções de acesso
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+Url de acesso: http://joaoantunes-001-site1.jtempurl.com/
+User Name: 11180321
+Password: 60-dayfreetrial
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+Usuarios para acesso:
+| Senha|Nome|email|Tipo|
+|-|-|-|-|
+|admin|Administrador|admin@admin.com|Administrador|
+|123|Montador|mont@mont.com.br|Montador|
+|123|Cliente 1|cliente1@cli.com.br|Cliente|
+|123|Cliente 2|cliente2@cli.com.br|Cliente|
 
 > **Links Úteis**:
 >

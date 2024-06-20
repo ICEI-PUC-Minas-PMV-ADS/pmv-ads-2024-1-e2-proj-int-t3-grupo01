@@ -9,5 +9,6 @@
         public DateTime? DataSaida { get; set; }
         public bool Utilizado { get; set; }
         public string Tipo { get; set; } //Lente-Armação
+        public decimal? Custo { get; set; }
     }
 }

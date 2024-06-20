@@ -54,7 +54,8 @@ namespace GestLab.Controllers
                     Cor = produtoView.Cor,
                     Descricao = produtoView.Descricao,
                     Tipo = produtoView.Tipo,
-                    DataEntrada = DateTime.Now
+                    DataEntrada = DateTime.Now,
+                    Custo = produtoView.Custo,
                 });
             }
 

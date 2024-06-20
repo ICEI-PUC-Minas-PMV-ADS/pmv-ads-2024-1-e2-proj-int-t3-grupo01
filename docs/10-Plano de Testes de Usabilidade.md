@@ -60,7 +60,6 @@ Verifique se o relatório foi exportado corretamente.
 - Em uma escala de 1 a 5, quão fácil foi acessar a aplicação e fazer login na sua conta?
 - Como você classificaria a experiência de cadastro e atualização de usuários?
 - O que achou da usabilidade do cadastro e atualização de pedidos?
-- Descreva sua experiência geral com o cadastro e atualização do estoque de materiais.
 - Como foi sua experiência ao visualizar um pedido em andamento ou finalizado?
 - Qual foi sua impressão sobre o processo de armazenamento de notas fiscais?
 - O processo de exportação de relatórios foi intuitivo? Houve algum filtro pré-definido que você achou útil?
@@ -87,11 +86,10 @@ Verifique se o relatório foi exportado corretamente.
 - Computadores ou dispositivos móveis com acesso à internet para acesso à aplicação.
 - Espaço tranquilo para condução dos testes.
 - Ferramentas de gravação de tela e áudio (para testes remotos, se aplicável).
-- Questionário de pré-teste para coletar informações demográficas dos participantes.
 
 <b>Métricas Coletadas:</b>
 
 - Taxa de conclusão das tarefas.
-- Taxa de sucesso na realização das tarefas.
+- Taxa de cliques por tarefa.
 - Tempo médio para conclusão de cada tarefa.
 - Número médio de erros por tarefa.
